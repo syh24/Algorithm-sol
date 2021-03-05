@@ -43,7 +43,7 @@ int main() {
     cin.tie(NULL); cout.tie(NULL);
 
     cin >> v;
-    // Ʈ�� �ϼ�
+    // Æ®¸® ¿Ï¼º
     for (int i = 0; i < v; i++) {
         cin >> a; a--;
         while (true) {
@@ -69,7 +69,6 @@ int main() {
     mx = -1;
     for (int i = 0; i < v; i++) mx = max(mx, cnt[i]);
     cout << mx;
-
     return 0;
 }
            
